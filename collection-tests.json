@@ -1,0 +1,62 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: My first collection
+meta:
+  id: wrk_9c1bbf3f99c94507be1dcbbc1aea6a97
+  created: 1776113312709
+  modified: 1776113312709
+  description: ""
+collection:
+  - url: https://api.myproduct.com/v1/health
+    name: Mentor-AI-API
+    meta:
+      id: req_708e823ca3d544fcb3c3ace911d6d3a3
+      created: 1776113312721
+      modified: 1776113498317
+      isPrivate: false
+      description: Vérification de l'état du serveur
+      sortKey: -1776113312721
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.5.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_0d532a66850f2a554b81998980852e60a5eb26d9
+    created: 1776113312712
+    modified: 1776113518132
+  cookies:
+    - id: 2b5b0ba0-f3c5-4065-93fb-196024d8a91f
+      key: XSRF-TOKEN
+      value: eyJpdiI6IkdLMEhwUjBZYXM1NFBJWjQyZkZESHc9PSIsInZhbHVlIjoiaEUxSlFZWjRSQ094dUUvUVVyeDRIKzY3UkR0R2tGU1JDb2FYN2tTaGNPTi9ldUo0TTRBUjFEYXlET1hQT1o2Yk5lRXhXWUdRUTJiQ3VmWFdlRS9la2lrREk1UVZtdHNJMXlRejV6SmlCVEtzZlVtRk9HUXpYQ3lra2hzMStxNWwiLCJtYWMiOiIxMzJhNTUyYjRlNmUyZTBiNTY0MTEwNTQ0OWZhMzEwOGY0NTczOGEwOWYxYThjOGE3OGM4Nzc4ZWYzY2JjMGI2IiwidGFnIjoiIn0%3D
+      domain: api.myproduct.com
+      path: /
+      secure: true
+      httpOnly: false
+      hostOnly: true
+    - id: 0600dfb0-0502-4bc4-80b1-297ccd633479
+      key: myproduct_session
+      value: eyJpdiI6IjBHZFBsOHI4NGZBZjdUQytQOEI0N1E9PSIsInZhbHVlIjoiZ2pmV0FicWV1VkZnb05adm05ejFkQWlnZXMvY3h1UmY3UW5EVzN2MEtFbGdjWTFpeU94TzMybzlySUkreCtxSVpuZW9BYjZLckJ5ZjlLQm50YUsvYXVKQ2FaWXdJOUlmbzhmTEtqb3puTVYxYmhIcGM0WERpSWFqZUpWcWo4Q0IiLCJtYWMiOiI3NGRlYmE3ZTc4N2NiY2NmYjIyNTE3ZGE1ZDZlMjgyOTIzMmJiODFiZTgxZTZjMWU3ZWM5ZTdkYzA1OWZjMTJjIiwidGFnIjoiIn0%3D
+      domain: api.myproduct.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+environments:
+  name: Base Environment
+  meta:
+    id: env_0d532a66850f2a554b81998980852e60a5eb26d9
+    created: 1776113312711
+    modified: 1776113312711
+    isPrivate: false
